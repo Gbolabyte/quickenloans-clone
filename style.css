@@ -1,0 +1,175 @@
+.collapse-btn, button, .btn {
+    border-style: groove;
+    border-color: blue!important;
+    color:black;
+}
+
+.nav-item a, .nav-link {
+    color: black!important;
+    margin-right: 50px;
+
+}
+.logo-wrap {
+    color: blue!important;
+    font-size: xx-large;
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+}
+    
+.chatApp, .goHome {
+    text-align: center;
+}
+
+.chatApp a, .goHome a {
+    color:black;
+}
+
+.HeaderSection {
+    
+ background-image: url(https://www.savvyre.com.ng/wp-content/uploads/2018/08/property-dev.jpg);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+ 
+}
+
+.headerText {
+    text-align:center;
+    margin:100px;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+    
+ .homeCircle {
+     text-align:center;
+     margin-top: -60px;
+ }
+
+ .circleText, .CircleText a {
+     font-size: 30px;
+     font-weight: bolder;
+     color: blue!important;
+ }
+
+ .fa-chevron-down {
+     margin-top: -50%;
+     color:blue;
+ }
+
+ .homeSurvey {
+    margin-top: 20px;
+     text-align:center;
+ }
+
+ .surveyText {
+     text-align:left!important;
+     font-weight:bold;
+ }
+
+ #homeSelect {
+     width: 400px;
+     height: 40px;
+     border-radius: 10px;
+     border-style: groove;
+     border-color: blue;
+     font-weight: bold;
+ }
+
+ #homeSelect option {
+     font-weight:bold;
+     background-color:black;
+     color:white;
+ }
+
+ .homeButton {
+     text-align: left;
+     font-weight: bold;
+ }
+
+.homeContent {
+    font-family: 'Times New Roman', Times, serif;
+    border-top-style: groove;
+    border-top-color: blue;
+}
+
+footer {
+    background-color:blue;
+    color:white;
+}
+
+.fa, .fa-long-arrow-down {
+    height: 30px!important;
+}
+
+/* FORM CSS */
+
+/* Style the form */
+#regForm {
+    font-family: 'Times New Roman', serif;
+  background-color: #ffffff;
+  margin: 5px auto;
+  padding: 40px;
+  width: auto;
+  min-width: 300px;
+}
+
+/* Style the input fields */
+input {
+  /*padding: 10px;
+  width: 100%;
+  font-size: 17px;
+  font-family: Raleway;
+  border: 1px solid #aaaaaa; */
+
+  width: 400px;
+     height: 40px;
+     border-radius: 10px;
+     border-style: groove;
+     border-color: blue;
+     font-weight: bold; 
+}
+
+select, option {
+      width: 400px;
+     height: 40px;
+     border-radius: 10px;
+     border-style: groove;
+     border-color: blue;
+     font-weight: bold;
+}
+
+/* Mark input boxes that gets an error on validation: */
+input.invalid {
+  background-color: #ffdddd;
+}
+
+/* Hide all steps by default: */
+.tab {
+  display: none;
+}
+
+/* Make circles that indicate the steps of the form: */
+.step {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbbbbb;
+  border: none;
+  border-radius: 50%;
+  display: inline-block;
+  opacity: 0.5;
+}
+
+/* Mark the active step: */
+.step.active {
+  opacity: 1;
+}
+
+/* Mark the steps that are finished and valid: */
+.step.finish {
+  background-color: #ff0000;
+}
+
